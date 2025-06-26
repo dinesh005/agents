@@ -1,0 +1,55 @@
+{
+    "summarization_prompts" : [
+      { "role": "system", "content": "You are a helpful assistant that summarizes text." },
+      { "role": "user", "content": "Summarize the following text: {text}" }
+    ],
+    "information_extraction_prompts" : [
+      { "role": "system", "content": "You are a helpful assistant that extracts information from text." },
+      { "role": "user", "content": "Extract the following information from the text: {text}" }
+    ],
+    "question_answering_prompts" : [
+      { "role": "system", "content": "Answer the question based on the context below. Keep the answer short and concise. Respond \"Unsure about answer\" if not sure about the answer." },
+      { "role": "user", "content": "Answer the following question based on the text: {text} Question: {question}" }
+    ],
+    "text_generation_prompts" : [
+      { "role": "system", "content": "You are a creative writing assistant." },
+      { "role": "user", "content": "Generate a story based on the following prompt: {prompt}" }
+    ],
+    "translation_prompts" : [
+      { "role": "system", "content": "You are a translation assistant." },
+      { "role": "user", "content": "Translate the following text from {source_language} to {target_language}: {text}" }
+    ],
+    "sentiment_analysis_prompts" : [
+      { "role": "system", "content": "You are a sentiment analysis assistant." },
+      { "role": "user", "content": "Analyze the sentiment of the following text: {text}" }
+    ],
+    "text_classification_prompts" : [
+      { "role": "system", "content": "You are a text classification assistant." },
+      { "role": "user", "content": "Classify the following text into one of the categories: News, Blog, Research, or Other and return me only category. \n\nText:{text}\n\nCategory: " }
+    ],
+    "named_entity_recognition_prompts" : [
+      { "role": "system", "content": "You are a named entity extraction assistant." },
+      { "role": "user", "content": "Extract all the entities (Person, Organization, Location) from the following text. Provide the result as a comma-separated list only. \n\nText:{text}\n\nEntities:" }
+    ],
+    "paraphrasing_prompts" : [
+      { "role": "system", "content": "You are a paraphrasing assistant." },
+      { "role": "user", "content": "Paraphrase the following text: {text}" }
+    ],
+    "text_completion_prompts" : [
+      { "role": "system", "content": "You are a text completion assistant." },
+      { "role": "user", "content": "Complete the following text: {text}" }
+    ],
+    "code_generation_prompts" : [
+      { "role": "system", "content": "You are a code generation assistant." },
+      { "role": "user", "content": "Generate code based on the following requirements: {requirements}" }
+    ],
+    "code_completion_prompts" : [
+      { "role": "system", "content": "You are a code completion assistant." },
+      { "role": "user", "content": "Complete the following code snippet: {code_snippet}" }
+    ],
+    "code_explanation_prompts" : [
+      { "role": "system", "content": "You are a code explanation assistant." },
+      { "role": "user", "content": "Explain the following code: {code}" }
+    ]
+  }
+    

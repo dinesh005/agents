@@ -1,0 +1,18 @@
+{
+    "summarization_text": "Antibiotics are a type of medication used to treat bacterial infections. They work by either killing the bacteria or preventing them from reproducing, allowing the body’s immune system to fight off the infection. Antibiotics are usually taken orally in the form of pills, capsules, or liquid solutions, or sometimes administered intravenously. They are not effective against viral infections, and using them inappropriately can lead to antibiotic resistance.",
+    "information_extraction_text": "Author-contribution statements and acknowledgements in research papers should state clearly and specifically whether, and to what extent, the authors used AI technologies such as ChatGPT in the preparation of their manuscript and analysis. They should also indicate which LLMs were used. This will alert editors and reviewers to scrutinize manuscripts more carefully for potential biases, inaccuracies and improper source crediting. Likewise, scientific journals should be transparent about their use of LLMs, for example when selecting submitted manuscripts.",
+    "question_answering_text": "Teplizumab traces its roots to a New Jersey drug company called Ortho Pharmaceutical. There, scientists generated an early version of the antibody, dubbed OKT3. Originally sourced from mice, the molecule was able to bind to the surface of T cells and limit their cell-killing potential. In 1986, it was approved to help prevent organ rejection after kidney transplants, making it the first therapeutic antibody allowed for human use",
+    "question_answering_question": "What was OKT3 originally sourced from?",
+    "text_generation_prompt": "Write a short story about a robot learning to love.",
+    "translation_text": "Hello, how are you?",
+    "translation_source_language": "English",
+    "translation_target_language": "Spanish",
+    "sentiment_analysis_text": "I love the new design of your website! It's so user-friendly and visually appealing.",
+    "text_classification_text": "The quick brown fox jumps over the lazy dog.",
+    "named_entity_recognition_text": "Apple Inc. is looking to buy a startup in San Francisco for $1 billion.",
+    "paraphrasing_text": "The weather today is sunny and warm, perfect for a picnic.",
+    "text_completion_text": "The future of artificial intelligence is",
+    "code_generation_requirements": "Create a Python function that calculates the factorial of a number.",
+    "code_completion_code_snippet": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)",
+    "code_explanation_code": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)"
+  }
