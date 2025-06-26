@@ -1,0 +1,9 @@
+langchain_core
+langchain
+langchain-aws
+wikipedia-api
+langchain-community
+tavily-python
+langchain-tavily
+langgraph
+ipython
